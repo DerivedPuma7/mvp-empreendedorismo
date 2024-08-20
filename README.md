@@ -8,6 +8,6 @@ First, run the development server:
 yarn dev
 ```
 
-Open [http://localhost:3000/landing](http://localhost:3000/landing)
-Open [http://localhost:3000/categories](http://localhost:3000/categories)
-Open [http://localhost:3000/details](http://localhost:3000/details)
+Open [http://localhost:3000/landing](http://localhost:3000/landing)  
+Open [http://localhost:3000/categories](http://localhost:3000/categories)  
+Open [http://localhost:3000/details](http://localhost:3000/details)  
