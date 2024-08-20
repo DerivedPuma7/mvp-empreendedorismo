@@ -12,7 +12,7 @@ export default function Details() {
       <div className="bg-card rounded-lg shadow-lg overflow-hidden">
         <div className="bg-primary-foreground text-primary p-4 md:p-6 lg:p-8">
           <div className="flex items-center justify-between">
-            <div className="text-2xl md:text-3xl lg:text-4xl font-bold">João da Silva</div>
+            <div className="text-2xl md:text-3xl lg:text-4xl font-bold">João Silva</div>
             <div className="flex items-center gap-1">
               <StarIcon className="w-5 h-5 fill-primary" />
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -26,16 +26,16 @@ export default function Details() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             <div className="flex items-center gap-4">
               <PhoneIcon className="w-6 h-6 text-muted-foreground" />
-              <div className="text-lg md:text-xl lg:text-2xl font-medium">(123) 456-7890</div>
+              <div className="text-lg md:text-xl lg:text-2xl font-medium">(35)988672413</div>
             </div>
             <div className="flex items-center gap-4">
               <DollarSignIcon className="w-6 h-6 text-muted-foreground" />
-              <div className="text-lg md:text-xl lg:text-2xl font-medium">R$50/h</div>
+              <div className="text-lg md:text-xl lg:text-2xl font-medium">R$150/h</div>
             </div>
           </div>
           <Separator className="my-4 md:my-6 lg:my-8" />
           <div className="prose max-w-none">
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold">Sobre João da Silva</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold">Sobre João</h3>
             <p>
               João da Silva é um pintor altamente qualificado e experiente com mais de 10 anos de expertise na
               indústria. Ele se especializa em pintura interna e externa, garantindo um acabamento impecável a cada vez.
@@ -49,15 +49,11 @@ export default function Details() {
           <div className="flex gap-4 mt-8">
             <Button>
               <CalendarIcon className="w-4 h-4 mr-2" />
-              Book Services
+              Agendar
             </Button>
             <Button variant="secondary">
               <PhoneIcon className="w-4 h-4 mr-2" />
-              Call (123) 456-7890
-            </Button>
-            <Button variant="outline">
-              <WebcamIcon className="w-4 h-4 mr-2" />
-              Chat Now
+              Entrar em contato
             </Button>
           </div>
         </div>
